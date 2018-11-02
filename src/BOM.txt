@@ -1,0 +1,33 @@
+Everything is made from wood. Assembly takes several days, and requires some skill, passion for precision, and patience.
+The estimated lasercutter time is 3 to 4 hours (including handling).
+
+
+Shopping list
+-------------
+ - 3x plywood 50cm x 76cm, 3.2mm (e.g. https://www.ebay.de/itm/Sperrholzplatten-3mm-Birke-10-90-m-Bastelholz-Holzplatte-Modellbau-Sperrholz/251233553554)
+ - 6x beech cylindrical rod, 6mm diameter, 80mm (buy 1m, cut yourself)
+ - 24x beech cylindrical rod, 4mm diameter, 13mm (buy 1m, cut yourself)
+ - ca 100 toothpics, 2mm diameter.
+ - wood glue (e.g. Ponal Express)
+ - candlestump 
+ - sandpaper grain 180
+ - adhesive tape (e.g. painters tape)
+
+Tools
+-----
+ - Flat surface, cardboard (to collect dust, broken toothpicks, excess glue, etc.
+ - Lasercutter, large enough for the boards (e.g. a Thunderlaser Nova35 at your nearby FabLab)
+ - Small and large plastic bags with zip (to collect all the pieces)
+ - Pliers
+ - File
+
+Software
+--------
+ - inkscape 0.92.3 (open the SVG file, select laser layers)
+ - VisiCut (or whatever is needed to drive the laser)
+
+
+Parts count
+-----------
+
+ 
