@@ -34,7 +34,7 @@ Software
 Parts count
 ===========
 
-Total: 132+61+174+40+46+60+42+14 = 571
+Total: 132+61+14+174+40+50+60+44 = 577
 
  
 Neper drums
@@ -53,7 +53,7 @@ Adder wheels and drums
 
 Adder box
 ---------
-  6*(2+1+2) + 6+6+4 = 46
+  6*(2+1+2) + 6+6+4+4 = 50
  
 Memory wheels and disks
 -----------------------
@@ -61,5 +61,5 @@ Memory wheels and disks
 
 Memory box
 ----------
-  6*(1+3) + 5+6+1+2+4 = 42
+  6*(1+3) + 5+6+1+2+4+2 = 44
 
