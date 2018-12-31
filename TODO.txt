@@ -1,0 +1,15 @@
+* Addiergetriebe mit kleinerer übersetzung, mehr toleranz
+
+* Addiergehäuse für 4 Ebenen
+
+* Rastfeder für Addierer: Mehr individuelle Wege, mehr Vorspannung.
+
+* Seitenwände am Stück, mit neuen Aussparungen für Addierwerk und neuen Ankern für Speicherwerk.
+
+* Multiplizierwerk um 2mm pro Zeile gestreckt, damit man es besser ablesen kann. 
+
+* Multiplizierwerk: Frontblende durch Stützleisten hinter den Schiebern ersetzen.
+
+* Neuer Deckel für Multiplizierwerk. Lagerung der Walzen mit Verstärkungsringen.
+
+* Trigger für Glocke?
