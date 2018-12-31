@@ -1,4 +1,9 @@
-* Addiergetriebe mit kleinerer übersetzung, mehr toleranz
+[x] * Make number 6 and 5 more distinguishable
+
+
+* Split up in 3 files: neper.svg, adder.svg, memory.svg
+
+* Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
 
 * Addiergehäuse für 4 Ebenen
 
