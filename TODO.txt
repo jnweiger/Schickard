@@ -1,6 +1,6 @@
 [x] * Make number 6 and 5 more distinguishable
 
-* Split up into 3 more files: neper.svg, adder.svg, memory.svg
+[x] * Split up into 3 more files: neper.svg, adder.svg, memory.svg
 
 * Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
 

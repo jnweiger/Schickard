@@ -25,12 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99167416"
-     inkscape:cx="583.64362"
-     inkscape:cy="1361.8976"
+     inkscape:zoom="0.47078048"
+     inkscape:cx="657.9209"
+     inkscape:cy="980.44456"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="false" />
+     showgrid="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid62336"
+       dotted="true" />
+  </sodipodi:namedview>
   <metadata
      id="metadata19084">
     <rdf:RDF>
@@ -39,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
