@@ -2,18 +2,24 @@
 
 [x] * Split up into 3 more files: neper.svg, adder.svg, memory.svg
 
+[X] * Seitenwände und Schild in den memory und neper platten unterbringen
+
+[x] * Seitenwände am Stück, mit neuen Aussparungen für Addierwerk und neuen Ankern für Speicherwerk.
+
+[x] * Halterung hinten für Schublade, Schild, Stift
+
+[x] * Neuer Deckel für Multiplizierwerk. Lagerung der Walzen mit Verstärkungsringen.
+
+[X] * Multiplizierwerk um 2mm pro Zeile gestreckt, damit man es besser ablesen kann. 
+
+* Gehäuse auf beiden Seiten je 6mm breiter
+
+* Multiplizierwerk: Frontblende durch Stützleisten hinter den Schiebern ersetzen.
+
 * Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
 
 * Addiergehäuse für 4 Ebenen
 
 * Rastfeder für Addierer: Mehr individuelle Wege, mehr Vorspannung.
 
-* Seitenwände am Stück, mit neuen Aussparungen für Addierwerk und neuen Ankern für Speicherwerk.
-
-* Multiplizierwerk um 2mm pro Zeile gestreckt, damit man es besser ablesen kann. 
-
-* Multiplizierwerk: Frontblende durch Stützleisten hinter den Schiebern ersetzen.
-
-* Neuer Deckel für Multiplizierwerk. Lagerung der Walzen mit Verstärkungsringen.
-
-* Trigger für Glocke?
+* Tonzunge und Hammer für 1.000.000 Überlauf ?
