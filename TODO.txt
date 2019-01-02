@@ -12,13 +12,13 @@
 
 [X] * Multiplizierwerk um 2mm pro Zeile gestreckt, damit man es besser ablesen kann. 
 
-* Gehäuse auf beiden Seiten je 6mm breiter
+[X] * Gehäuse auf beiden Seiten je 6mm breiter
 
-* Multiplizierwerk: Frontblende durch Stützleisten hinter den Schiebern ersetzen.
+[X] * Multiplizierwerk: Frontblende durch Stützleisten hinter den Schiebern ersetzen.
+
+[X] * Addiergehäuse für 4 Ebenen
 
 * Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
-
-* Addiergehäuse für 4 Ebenen
 
 * Rastfeder für Addierer: Mehr individuelle Wege, mehr Vorspannung.
 
