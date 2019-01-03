@@ -18,7 +18,7 @@
 
 [X] * Addiergehäuse für 4 Ebenen
 
-* Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
+[X] * Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
 
 * Rastfeder für Addierer: Mehr individuelle Wege, mehr Vorspannung.
 
