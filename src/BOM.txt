@@ -1,5 +1,7 @@
+
 Everything is made from wood. Assembly takes several days, and requires some 
 skill, passion for precision, and patience.
+
 The estimated lasercutter time is 3 to 4 hours (including handling).
 The smaller parts are included in double or triple quantities, often with 
 indicated size variants, to accomodate laser kerf and exact thickness of the plywood.
@@ -8,9 +10,11 @@ The 14mm rings for the adder box can be made from 3mm Kraftplex for better quali
 
 Shopping list
 =============
- - 4x plywood 50cm x 76cm, 3.2mm (e.g. https://www.ebay.de/itm/Sperrholzplatten-3mm-Birke-10-90-m-Bastelholz-Holzplatte-Modellbau-Sperrholz/251233553554)
- - 5x beech cylindrical rod, 6mm diameter, 80mm (buy 1m, cut yourself)
- - 26x beech cylindrical rod, 4mm diameter, 13mm (buy 1m, cut yourself)
+ - 3x plywood 50cm x 76cm, 3.2mm (e.g. https://www.ebay.de/itm/Sperrholzplatten-3mm-Birke-10-90-m-Bastelholz-Holzplatte-Modellbau-Sperrholz/251233553554)
+ - plywood ca 22cm x 20cm, 4mm (for the sign)
+ - optionally 3mm Kraftplex ca 9cm x 15cm for extra strong 10mm rings as bearings.
+ - 5x beechwood cylindrical rod, 6mm diameter, 90mm (buy 1m, cut yourself)
+ - 26x beechwood cylindrical rod, 4mm diameter, 13mm (buy 1m, cut yourself)
  - ca 100 toothpics, 2mm diameter.
  - wood glue (e.g. Ponal Express)
  - candlestump 
