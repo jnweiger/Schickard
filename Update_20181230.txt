@@ -20,6 +20,6 @@
 
 [X] * Addiergetriebe mit kleinerer übersetzung, mehr Toleranz
 
-* Rastfeder für Addierer: Mehr individuelle Wege, mehr Vorspannung.
+[X] * Rastfeder für Addierer: Mehr individuelle Wege, mehr Vorspannung.
 
-* Tonzunge und Hammer für 1.000.000 Überlauf ?
+?? * Tonzunge und Hammer für 1.000.000 Überlauf ?
