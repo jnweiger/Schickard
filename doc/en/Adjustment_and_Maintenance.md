@@ -1,3 +1,5 @@
+Read this after 'Parts and Laser-settings'.
+
 Grease before assembly
 ======================
 All moving parts should be rubbed with wax. The stump of an old candle works fine for that
@@ -10,7 +12,7 @@ Apply very little wax to the sliders. It okay for them to
 have some friction, as there are no springs to hold them in position.
 
 After assembly, if you find that some knobs turn harder than others or make unusual noise, 
-you may re-apply some wax. It may be needed to open the neper drum box and the memory unit to access
+you may re-apply some wax. It may be needed to open the napier unit and the memory unit to access
 the interior, for the adder unit, the tip of a small knive (carrying some wax) should help to reach all parts.
 There should be no grinding or creaking noise from the machine. Only the clicking of the springs
 when a digit snaps into position.
@@ -19,8 +21,7 @@ when a digit snaps into position.
 Adjustment of the adder unit after assembly
 ===========================================
 
-There is one long tooth per wheel that engages in its left
-neighbour to perform a carry over.
+There is one long tooth per wheel that engages in its left neighbour to perform a carry over.
 This happens, when the wheel is turned clockwise from 9 to 0 (addition) 
 and also when turning counter clockwise from 0 to 9 (subtraction).
 This tooth engages only in betwwen the 0 and 9 positions.
