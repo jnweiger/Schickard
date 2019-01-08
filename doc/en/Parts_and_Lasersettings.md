@@ -24,7 +24,8 @@ Beech is also a good choice. It is much harder, but also more expensive.
 Do not use inexpensive poplar or cottonwood. It is too soft for cutting gears.
 
 Lasercut the three files schickard_napiers.svg, schickard_adder.svg and schickard_memory.svg found in the src folder.
-Each file represents one 76 x 50 board.
+In each of these, a layer named 'laser' should be visible, representing one board 76cm x 50cm each. These three boards represent the entire machine. All other files are optional or contain construction sketches that were used to produced the three schickard_*.svg files.
+
 The following is a description what is contained in these boards. It is best to keep the parts well sorted according to the unit they belong to. You can lasercut one board at a time and assemble one unit of the machine, if you start in the order given here. Do the napier unit last, it needs all the parts left over from the other two boards.
 
 

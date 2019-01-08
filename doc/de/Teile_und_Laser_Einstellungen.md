@@ -16,30 +16,27 @@ Die Datei src/BOM.txt (billl of materials) listet alle benötigten Materialen.
 Am wichtigsten davon sind drei Sperrholzplatten 76cm x 50cm. Aller lasergeschnittenen Teile 
 werden daraus gemacht.
 
-Achte beim Holzeinkauf auf die exakte Dicke. Die Platten sollten maximal 3.2mm dick sein. Manche Hersteller verkaufen bis zu 3.5mm docke PLatten als 3mm (funktioniert hier nicht!). Manche Hersteller halten exakt 3.0mm ein (das funkioniert, baucht aber mehr Holzleim). Mit 3.2mm Holz funktionieren viele Verbindungen als stramme Steckverbindungen, die oft keinen Leim benötigen.
+Achte beim Holzeinkauf auf die exakte Dicke. Die Platten sollten maximal 3.2mm dick sein. Manche Hersteller verkaufen bis zu 3.5mm dicke Platten als 3mm (funktioniert hier nicht!). Manche Hersteller halten exakt 3.0mm ein (das funkioniert, baucht aber mehr Holzleim). Mit 3.2mm Holz funktionieren viele Verbindungen als stramme Steckverbindungen, die oft keinen Leim benötigen.
 Birkensperrholz sollte in guter Qualität gekauft werden. Astfrei, glatt, absolut eben. Frage nach "Laserqualität". 
 Beim Zuschnitt muss die Holzmaserung in Längsrichtung verlaufen. (Holzfedern quer zur Maserung funktionieren nicht!)
 
 Buchensperrholz ist auch eine gute Wahl. Es ist deutlich härter, aber auch teurer.
-Billiges Pappelsperrholz sollte vermiede werden. Es ist zu weich für Zahnräder.
+Billiges Pappelsperrholz sollte vermieden werden. Es ist zu weich für Zahnräder.
 
-Die drei Dateien schickard_napiers.svg, schickard_adder.svg und schickard_memory.svg im Unterverzeichnis src werde mit dem Laser ausgeschnitten. Je eine 76 x 50 Platte pro Datei.
+Die drei Dateien schickard_napiers.svg, schickard_adder.svg und schickard_memory.svg im Unterverzeichnis src ergeben die komplette Maschine. In jeder der Dateien sollte die Ebene 'laser' sichtbar sein. Dies ergibt einer 76cm x 50cm 
+Platte pro Datei.  Alle weiteren Dateien enthalten optionale Teile oder Hilfskonstruktionen aus denen die drei schickard_*.svg Dateien erzeugt wurden.
 
 Im Folgenden wird beschrieben, was in den drei Platten enthalten ist. Die Teile sollten man streng nach Werken 
-sortiert werden. Du kannst die Platten nacheinander schneiden und zusammenbauen, wenn du dich an die Reihenfolge hier hälst. Das Multiplizierwerk (napier unit) wird zuletzt gebaut, da es die übrigbleibende Teile von den anderen Platten verwendet.
+sortiert werden. Du kannst die Platten nacheinander schneiden und zusammenbauen, wenn du dich an die Reihenfolge hier hältst. Das Multiplizierwerk (napier unit) wird zuletzt gebaut, da es die übrigbleibende Teile von den anderen Platten verwendet.
 
 
 Speicherwerk
 ------------
 Dieses Werk ist einfacher als die anderen, und sollte zuerst zusammengebaut werden.
-Das Speicherweik ist eine flache Kiste (ca. 33cm lang, 3cm hoch, 7cm tief) am unteren Ende der Maschine.
+Das Speicherwerk ist eine flache Kiste (ca. 33cm lang, 3cm hoch, 7cm tief) am unteren Ende der Maschine.
 Auf der Oberseite sind sechs Drehknöpfe und sechs Fenster, die je eine Ziffer zeigen. Zu Beginn einer Multiplikation wird hier eine der beiden Zahlen durch die Drehknöpfe eingestellt.
 Die Unterseite hat Aussparungen, um einen Blick in den Mechanismus zu erlauben.
 
-
-The top surface of the box has six knobs and six windows showing one digit each. To start multiplying, enter 
-one of the two number here by turning the knobs, so that it is visible in the windows.
-The bottom of the box as some openings to allow viewing the interior mechanism.
 
 Alle Teile des Speicherwerks finden auf der linken Hälfte der Datei schickard_memory.svg platz -- die rechte Hälfte enthält eine der Seitenwände und einige Teile des Multiplizierwerks.
 Von einem Typ Ring sind 9 Exemplare vorhanden. Sechs davon werden für das Speicherwerk benötigt, drei gehören zum Multiplizierwerk.
@@ -51,7 +48,7 @@ Ausserdem befinden sich 13 Teile für Positionierhilfen auf der Platte, die nur 
  * Finde zwei gewinkelte Teile mit Innekurve ca. 6cm x 5cm mit der Beschriftung "Napier - Positioning Aid Side Connectors". Lege sie zur Seite, sie werden später bei den Seitenwänden benutzt.
  * Finde ein rechteckiges Teil ca. 7cm x 3cm mit der Beschriftung "Positioning Aid Side Connectors Memory". Lege es zur Seite, es wird später bei den Seitenwänden benutzt.
 
-Ausserdem sind zwei Sätze Ringe auf der Platte. Ein Satz ist am unteren Rand und hat 14.4mm Aussendurchmesser. Der ander Satz ist am rechten Rand und hat 14.3mm. Benutze den einen Satz, der die bessere Presspassung bietet. Optional können Ringe aus stärkerem Material, beispielsweise Kraftplex gelasert werden.
+Ausserdem sind zwei Sätze Ringe auf der Platte. Ein Satz ist am unteren Rand und hat 14.4mm Aussendurchmesser. Der andere Satz ist am rechten Rand und hat 14.3mm. Benutze den einen Satz, der die bessere Presspassung bietet. Optional können Ringe aus stärkerem Material, beispielsweise Kraftplex gelasert werden.
 Lege die Ringe zur Seite, sie werden später beim Addierwerk und Multiplizierwerk benutzt.
 
 
