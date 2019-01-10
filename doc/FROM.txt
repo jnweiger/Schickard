@@ -12,6 +12,8 @@ Schickard
    https://www.tuebingen.de/19.html#/146/460
    https://www.tuebingen.de/i/fullscreen/1024/Bilder/Schickard_Rechenmaschine_Otto_Buchegger_2000.jpg
    http://rechnerlexikon.de/artikel/Schickard_Maschine
+   http://computarium.lcd.lu/literature/LIPPE/geschichte_der_rechenautomaten.pdf
+   http://www.rechenhilfsmittel.de/kh_curta.pdf
 
 Leibniz et al
 =============
