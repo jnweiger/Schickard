@@ -1,5 +1,7 @@
 # Schickard
-Lasercut reconstruction of the first calculating machine designed by Wilhelm Schickard 1623.
+Lasercut reconstruction of the first calculating machine designed by Wilhelm Schickard 1623. 
+
+Published at https://www.thingiverse.com/thing:3451695
 
 <img src="https://raw.githubusercontent.com/jnweiger/schickard/master/photos/build/photo_2018-10-29_15-54-43.jpg"/>
 

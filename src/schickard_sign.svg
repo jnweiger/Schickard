@@ -14,7 +14,7 @@
    viewBox="0 0 400 300"
    version="1.1"
    id="svg131131"
-   inkscape:version="0.92.3 (unknown)"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="schickard_sign.svg">
   <defs
      id="defs131125" />
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.17398513"
-     inkscape:cx="2940.7144"
-     inkscape:cy="284.56015"
+     inkscape:zoom="0.33740127"
+     inkscape:cx="1020.4724"
+     inkscape:cy="680.2142"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -304,7 +304,7 @@
      id="layer3"
      inkscape:label="Text EN"
      sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(-26.604495,-14.181879)"
        style="display:inline"
@@ -966,7 +966,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Text DE"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        transform="matrix(0.26458333,0,0,0.26458333,80.720462,19.347865)"
