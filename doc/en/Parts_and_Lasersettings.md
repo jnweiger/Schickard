@@ -90,6 +90,10 @@ Parts are pushed onto the shafts in the following order:
 
 Each of these parts has two holes for toothpicks. These holes face to the left and are toothpicks are used to align the parts precisely.
 
+The five carry shafts are 6mm diameter beechwood, 90mm long. The back wall lables them A, B, C, D, E.
+For A, C, E and B, D respectively find a "Positioning Aid Carry Wheels". The openings fit the wheels or rings for each position.
+Two toothpicks are used here too for precise alignment.
+The last ring mounts the shaft into the back wall of the adder unit, as indicated on the positioning aids.
 
 Napier Unit
 -----------

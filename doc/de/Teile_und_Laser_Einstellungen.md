@@ -89,6 +89,11 @@ Die Reihenfolge der in der Teile auf die Wellen gesteckt werden, ist wie folgt:
 
 Dabei sind die beiden Zahnstocherlöcher immer links. Mit den Zahnstochern werden alle Teile genau ausgerichtet.
 
+Die fünf Übertragswellen bestehen aus 6mm Buchenrundstäben, 90mm lang. Auf der Rückwand sind sie mit A, B, C, D, E beschriftet.
+Für bzw. A, C, E bzw. B, D gibt es jeweils eine Montagehilfe "Positioning Aid Carry Wheels". Diese haben passende Öffnungen für die Ringe und Räder.
+Auch hier werden zwei Zahnstocher zur genauen Ausrichtung montiert.
+Mit dem letzten Ring wird die Welle in der die Rückwand des Addierwerks befestigt, wie auf den Montagehilfe eingezeichnet.
+
 
 Napier Unit
 -----------
