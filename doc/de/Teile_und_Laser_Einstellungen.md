@@ -60,7 +60,7 @@ Die  Kiste hat keinen Boden und die Rückseite ist durchbrochen, so dass der kom
 
 Das Rechenergebnis wird in diesem Werk angezeigt. Um eine Multiplikation zu beginnen, sind die Räder so zu drehen, dass 000000 angezeigt wird.
 
-Alle Teile passen in schickard_adder.svg und belegen etwa zwei drittel einer Platte 76cm x 50cm. Das rechte drittel dieser Datei enthält einen Satz Seitenwandteile und drei Sätze Achsenkreuze der Nepier-Walzen.
+Alle Teile passen in schickard_adder.svg und belegen etwa zwei drittel einer Platte 76cm x 50cm. Das rechte drittel dieser Datei enthält einen Satz Seitenwandteile und drei Sätze Kreuzwellen der Nepier-Walzen.
 
 Ausserdem befinden sich 12 Teile für Positionierhilfen auf der Platte, die nur während der Montage benutzt werden. Diese sind nicht Teil der Maschine.
 
