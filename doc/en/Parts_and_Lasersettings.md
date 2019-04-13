@@ -70,6 +70,26 @@ Also on this board are 12 parts that positioning aids used during assembly. They
 
 All knobs are identical. We need a total of 18 knobs.
 
+The knobs for the adder unit are mounted on 10-hole disks. The disks have the '0' position marked with a small notch.
+The digit drums consist of one toothed ring, a disk and 10 number-pads. Ring and disk have their '0' position marked with a rectangle.
+The shafts are composed of three parts, glued together to form a cross. There are two sets of shaft parts, labeled "1, 100, 10.000" and "10, 1.000, 100.000"
+All gears and spacer squares are pushed onto the shafts from the rear end. The labels face rear.
+The large 10-tooth-gears have their '0' position marked with a line.
+
+Parts are pushed onto the shafts in the following order:
+
+3 shafts "1, 100, 10.000":
+  * first 2x one-tooth,
+  * then 4x spacer square,
+  * then 2x 10-tooth-gear.
+
+3 shafts "10, 1.000, 100.000":
+  * first 2x 10-tooth-gear,
+  * then 4x spacer square,
+  * then 2x one-tooth.
+
+Each of these parts has two holes for toothpicks. These holes face to the left and are toothpicks are used to align the parts precisely.
+
 
 Napier Unit
 -----------

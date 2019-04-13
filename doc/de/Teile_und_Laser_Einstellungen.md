@@ -60,7 +60,7 @@ Die  Kiste hat keinen Boden und die Rückseite ist durchbrochen, so dass der kom
 
 Das Rechenergebnis wird in diesem Werk angezeigt. Um eine Multiplikation zu beginnen, sind die Räder so zu drehen, dass 000000 angezeigt wird.
 
-Alle Teile passen in schickard_adder.svg und belegen etwa zwei drittel einer Platte 76cm x 50cm. Das rechte drittel dieser Datei enthält einen Satz Seitenwandteile und drei Sätze Kreuzwellen der Nepier-Walzen.
+Alle Teile passen in schickard_adder.svg und belegen etwa zwei Drittel einer Platte 76cm x 50cm. Das rechte Drittel dieser Datei enthält einen Satz Seitenwandteile und drei Sätze Kreuzwellen der Nepier-Walzen.
 
 Ausserdem befinden sich 12 Teile für Positionierhilfen auf der Platte, die nur während der Montage benutzt werden. Diese sind nicht Teil der Maschine.
 
@@ -68,6 +68,26 @@ Ausserdem befinden sich 12 Teile für Positionierhilfen auf der Platte, die nur 
  * Finde zwei kleine Rechtecke ca. 11cm x 5cm, die mit "Positioning Aid Carry Wheels" beschriftet sind.
 
 Alle Knöpfe sind gleich. Insgesamt werden 18 Stück benötigt.
+
+Die Knöpfe des Addierwerks werden auf Lochscheiben montiert. Die Position der '0' ist mit einer kleinen Kerbe auf der Lochscheibe markiert.
+Die Ziffernwalze wird aus einem verzahnten Ring, einer Scheibe und 10 Ziffernplätchen aufgebaut. Auf Ring und Scheibe ist die Position der '0' jeweils durch ein Rechteck markiert.
+Die Wellen bestehen aus drei Teilen, die kreuzförmig verglebt werden. Es gibt zwei verschiedene Sätze Wellenteile, beschriftet "1, 100, 10.000" bzw. "10, 1.000, 100.000"
+Alle Zahnräder und Abstandsquadrate werden von hinten auf die Wellen gesteckt. Die Schrift zeigt nach hinten.
+Die grossen 10-Zahn-Räder haben die Position der '0' mit einem Strich markiert.
+
+Die Reihenfolge der in der Teile auf die Wellen gesteckt werden, ist wie folgt:
+
+3 Wellen "1, 100, 10.000":
+  * erst 2x Einzahn,
+  * dann 4x Abstandsquadrat,
+  * dann 2x 10-Zahn-Rad aufstecken.
+
+3 Wellen "10, 1.000, 100.000":
+  * erst 2x 10-Zahn-Rad,
+  * dann 4x Abstandsquadrat,
+  * dann 2x Einzahn aufstecken.
+
+Dabei sind die beiden Zahnstocherlöcher immer links. Mit den Zahnstochern werden alle Teile genau ausgerichtet.
 
 
 Napier Unit
