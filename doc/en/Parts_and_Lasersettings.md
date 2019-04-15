@@ -88,12 +88,16 @@ Parts are pushed onto the shafts in the following order:
   * then 4x spacer square,
   * then 2x one-tooth.
 
-Each of these parts has two holes for toothpicks. These holes face to the left and are toothpicks are used to align the parts precisely.
+Each of these parts has two holes for toothpicks. These holes face to the left
+and are toothpicks are used to align the parts precisely. All but the last part
+are mounted without glue. Only the two toohtpicks and the last part are glued.
 
-The five carry shafts are 6mm diameter beechwood, 90mm long. The back wall lables them A, B, C, D, E.
-For A, C, E and B, D respectively find a "Positioning Aid Carry Wheels". The openings fit the wheels or rings for each position.
-Two toothpicks are used here too for precise alignment.
-The last ring mounts the shaft into the back wall of the adder unit, as indicated on the positioning aids.
+The five carry shafts are 6mm diameter beechwood, 90mm long. The back wall
+lables them A, B, C, D, E.  For A, C, E and B, D respectively find a
+"Positioning Aid Carry Wheels". The openings fit the wheels or rings for each
+position.  Two toothpicks are used here too for precise alignment.  The last
+ring mounts the shaft into the back wall of the adder unit, as indicated on the
+positioning aids.
 
 Napier Unit
 -----------

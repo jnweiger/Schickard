@@ -1,4 +1,4 @@
-#! /bin/python3
+#! /usr/bin/python3
 #
 # schicam -- a python cv2 webcam viewer with zoom.
 #

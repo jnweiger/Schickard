@@ -73,26 +73,31 @@ Die Knöpfe des Addierwerks werden auf Lochscheiben montiert. Die Position der '
 Die Ziffernwalze wird aus einem verzahnten Ring, einer Scheibe und 10 Ziffernplätchen aufgebaut. Auf Ring und Scheibe ist die Position der '0' jeweils durch ein Rechteck markiert.
 Die Wellen bestehen aus drei Teilen, die kreuzförmig verglebt werden. Es gibt zwei verschiedene Sätze Wellenteile, beschriftet "1, 100, 10.000" bzw. "10, 1.000, 100.000"
 Alle Zahnräder und Abstandsquadrate werden von hinten auf die Wellen gesteckt. Die Schrift zeigt nach hinten.
-Die grossen 10-Zahn-Räder haben die Position der '0' mit einem Strich markiert.
+Die grossen 10-Zähne-Räder haben die Position der '0' mit einem Strich markiert.
 
 Die Reihenfolge der in der Teile auf die Wellen gesteckt werden, ist wie folgt:
 
 3 Wellen "1, 100, 10.000":
   * erst 2x Einzahn,
   * dann 4x Abstandsquadrat,
-  * dann 2x 10-Zahn-Rad aufstecken.
+  * dann 2x 10-Zähne-Rad aufstecken.
 
 3 Wellen "10, 1.000, 100.000":
-  * erst 2x 10-Zahn-Rad,
+  * erst 2x 10-Zähne-Rad,
   * dann 4x Abstandsquadrat,
   * dann 2x Einzahn aufstecken.
 
-Dabei sind die beiden Zahnstocherlöcher immer links. Mit den Zahnstochern werden alle Teile genau ausgerichtet.
+Dabei sind die beiden Zahnstocherlöcher immer links. Mit den Zahnstochern
+werden alle Teile genau ausgerichtet. Alle bis auf das letzte Teil werden ohne
+Leim aufgesteckt, nur das letzte Teil und die beiden Zahnstocher werden
+verklebt.
 
-Die fünf Übertragswellen bestehen aus 6mm Buchenrundstäben, 90mm lang. Auf der Rückwand sind sie mit A, B, C, D, E beschriftet.
-Für bzw. A, C, E bzw. B, D gibt es jeweils eine Montagehilfe "Positioning Aid Carry Wheels". Diese haben passende Öffnungen für die Ringe und Räder.
-Auch hier werden zwei Zahnstocher zur genauen Ausrichtung montiert.
-Mit dem letzten Ring wird die Welle in der die Rückwand des Addierwerks befestigt, wie auf den Montagehilfe eingezeichnet.
+Die fünf Übertragswellen bestehen aus 6mm Buchenrundstäben, 90mm lang. Auf der
+Rückwand sind sie mit A, B, C, D, E beschriftet.  Für bzw. A, C, E bzw. B, D
+gibt es jeweils eine Montagehilfe "Positioning Aid Carry Wheels". Diese haben
+passende Öffnungen für die Ringe und Räder.  Auch hier werden zwei Zahnstocher
+zur genauen Ausrichtung montiert.  Mit dem letzten Ring wird die Welle in der
+die Rückwand des Addierwerks befestigt, wie auf den Montagehilfe eingezeichnet.
 
 
 Napier Unit
