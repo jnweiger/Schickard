@@ -8,6 +8,7 @@ Presented at
 * Mini Maker Faire Nuremberg
 * <a href="https://youtu.be/ot1D30ZgLgg">Make Munich 2019</a>
 * <A HREF="http://www.VCFe.org/" TITLE="VCFe 20.0 am 27./28.April 2019 in München"><IMG SRC="http://www.VCFe.org/GIF/VCFe-Minibanner.gif" BORDER="0" WIDTH="120" HEIGHT="38" ALT="VCFe 20.0 am 27./28.April 2019 in M&uuml;nchen" /></A>
+* <a href="https://maker-faire.de/maker/die-schickardsche-rechenmaschine/">Maker Faire Berlin 2019</a>
 
 
 <img src="https://raw.githubusercontent.com/jnweiger/schickard/master/photos/build/photo_2018-10-29_15-54-43.jpg"/>
