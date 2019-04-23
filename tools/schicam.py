@@ -4,13 +4,7 @@
 #
 # 2019-04-15, v0.1      juergen@fabmail.org
 #                       implemented warpPerspective with getPerspectiveTransform from 4 points
-#                       key bindings:
-#                       + -             brightness
-#                       a               toggle autofocus ('A' in the lower lefthand corner indicates autofocus)
-#                       e               edit mode. define perspective transfor by clicking 4 green circles.
-#                       f               toggle full screen mode. Note, this requires WDITH HEIGHT parameters to 
-#                                       avoid loss if quality. Default: half camera resolution.
-#                       q               quit.
+# 2019-04-23, v0.2      using xdootool to implement the windowsize()
 #
 """
 Use uvcdynctrl -f
@@ -38,25 +32,49 @@ H.264 and MJPG (Motion-JPEG; MIME type: image/jpeg
 
 import cv2, sys
 import numpy as np
+import subprocess, re
+
+keybindings="""
+    + -    Brightness
+    a      Toggle autofocus ('A' in the lower lefthand corner indicates autofocus)
+    e      Edit mode. define perspective transfor by clicking 4 green circles.
+    f F5   Toggle full screen mode. Note, this requires WDITH HEIGHT parameters of the screen
+           to avoid loss if quality. Default: half camera resolution.
+    ?      Show this help.
+    q      Quit.
+"""
+
 
 pts = []
 edit = True
 autofocus = 1
+windowsizecheck = 0
+
+def windowsize():
+  out = subprocess.check_output(["xdotool", "getactivewindow", "getwindowgeometry", "%1"])
+  m = re.search("Geometry: (\d+)x(\d+)", str(out))
+  if m:
+    return [int(m.group(1)), int(m.group(2))]
+  return None
+
 
 def draw_mouse(event, x, y, flags, param):
     global edit, pts
     if event == cv2.EVENT_LBUTTONDOWN:
         print('draw_mouse: ', event, x, y, flags, param)
         if edit and len(pts) < 4:
-            pts.append([x,y])
+                pts.append([x,y])       # add
         else:
             edit = False
+    elif event == cv2.EVENT_LBUTTONUP:
+        if edit:
+            pts[-1] = [x, y]
     elif (event != 0):
         print('draw_mouse: ', event)
       
 
 def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
-    global edit, pts, autofocus
+    global edit, pts, autofocus, windowsizecheck
 
     cam = cv2.VideoCapture(device)
 #    cam.set(cv2.CAP_PROP_FRAME_WIDTH, 1600)
@@ -118,8 +136,14 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
         k = cv2.waitKey(30) & 0xff
         if k in (27, ord('q')):
             break       # esc or q to quit
-        elif k == 255:
-            pass        # keyWait timeout
+        elif k in (255, 226):
+            # keyWait timeout, SHIFT
+            if windowsizecheck > 0:
+                windowsizecheck = windowsizecheck - 1
+                if windowsizecheck == 0:
+                    print(windowsize())
+        elif k == ord('?'):
+           print("\nKey Bindings:\n"+keybindings)
         elif k == ord('e'):
            edit = not edit
            if not edit: pts = []
@@ -146,6 +170,7 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
              cv2.setWindowProperty("schicam", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
              win_pts = [[0,0],[win_w,0],[win_w,win_h],[0,win_h]]
              (xs, ys) = (float(cap_w)/win_w,  float(cap_h)/win_h)        # scale back from win to cam
+             windowsizecheck = 4
            else:
              cv2.setWindowProperty("schicam", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
         else:
@@ -158,10 +183,12 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: %s DEV [WIDTH HEIGHT]" % sys.argv[0])
         sys.exit(0)
+    dev = sys.argv[1]
+    if dev[:10] == '/dev/video': dev = dev[10:]
     if len(sys.argv) > 3:
-        show_webcam(device=int(sys.argv[1]), win_w=int(sys.argv[2]), win_h=int(sys.argv[3]))
+        show_webcam(device=int(dev), win_w=int(sys.argv[2]), win_h=int(sys.argv[3]))
     else:
-        show_webcam(device=int(sys.argv[1]), scale=0.5)
+        show_webcam(device=int(dev), scale=0.5)
 
 
 if __name__ == '__main__':
