@@ -88,11 +88,11 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
     cap_h = cam.get(cv2.CAP_PROP_FRAME_HEIGHT)
     if win_w is None or win_h is None:
         (win_w, win_h) = (int(scale*cap_w), int(scale*cap_h))
-    print("capture size: %dx%d" % (cap_w, cap_h))
-    print("display size: %dx%d" % (win_w, win_h))
+    (orig_win_w, orig_win_h) = (win_w, win_h)           # used when returning from fullscreen
     cam.set(cv2.CAP_PROP_AUTOFOCUS, autofocus)
     backlight = 0       # cam.get(cv2.CAP_PROP_BACKLIGHT)
     fullscreen = False
+    M = None
 
     ## https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_mouse_handling/py_mouse_handling.html
     cv2.namedWindow("schicam", cv2.WINDOW_NORMAL)
@@ -100,9 +100,29 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
     ## https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_geometric_transformations/py_geometric_transformations.html
     #
     # dst = cv2.warpPerspective(img,M,(300,300))
-    win_pts = [[0,0],[win_w,0],[win_w,win_h],[0,win_h]]
-    (xs, ys) = (float(cap_w)/win_w,  float(cap_h)/win_h)        # scale back from win to cam
-    M = None
+
+    def update_M():
+        pts1 = np.float32([[pts[0][0]*xs, pts[0][1]*ys], [pts[1][0]*xs, pts[1][1]*ys],
+                           [pts[3][0]*xs, pts[3][1]*ys], [pts[2][0]*xs, pts[2][1]*ys]])
+        pts2 = np.float32([win_pts[0], win_pts[1], win_pts[3], win_pts[2]])
+        return cv2.getPerspectiveTransform(pts1,pts2)
+
+    def update_w_h(w, h):
+        global pts
+        print("capture size: %dx%d" % (cap_w, cap_h))
+        print("display size: %dx%d" % (w, h))
+        new_M = M
+        win_pts = [[0,0],[w,0],[w,h],[0,h]]
+        (xs, ys) = (float(cap_w)/w,  float(cap_h)/h)        # scale back from win to cam
+        if (w != win_w or h != win_h):
+            for p in pts:
+               p[0] = int(float(p[0]) * w / win_w)
+               p[1] = int(float(p[1]) * h / win_h)
+            # if len(pts) == 4:
+            #     new_M = update_M()
+        return (w, h, win_pts, xs, ys, new_M)
+
+    (win_w, win_h, win_pts, xs, ys, M) = update_w_h(win_w, win_h)
 
 
     while True:
@@ -121,10 +141,7 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
                 p = win_pts[len(pts)]
                 cv2.circle(img, (p[0], p[1]), 50, (0,0,255), 1, cv2.LINE_AA)
             else:
-                pts1 = np.float32([[pts[0][0]*xs, pts[0][1]*ys], [pts[1][0]*xs, pts[1][1]*ys],
-                                   [pts[3][0]*xs, pts[3][1]*ys], [pts[2][0]*xs, pts[2][1]*ys]])
-                pts2 = np.float32([win_pts[0], win_pts[1], win_pts[3], win_pts[2]])
-                M = cv2.getPerspectiveTransform(pts1,pts2)
+                M = update_M()
         else:
             # perform transformation
             img = cv2.warpPerspective(img, M, (win_w, win_h))
@@ -140,8 +157,11 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
             # keyWait timeout, SHIFT
             if windowsizecheck > 0:
                 windowsizecheck = windowsizecheck - 1
-                if windowsizecheck == 0:
-                    print(windowsize())
+                if windowsizecheck == 0 and fullscreen:
+                    wh = windowsize()
+                    if wh is not None:
+                        (win_w, win_h, win_pts, xs, ys, M) = update_w_h(wh[0], wh[1])
+                            
         elif k == ord('?'):
            print("\nKey Bindings:\n"+keybindings)
         elif k == ord('e'):
@@ -168,11 +188,10 @@ def show_webcam(mirror=False, scale=0.5, device=1, win_w=None, win_h=None):
            fullscreen = not fullscreen
            if fullscreen:
              cv2.setWindowProperty("schicam", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
-             win_pts = [[0,0],[win_w,0],[win_w,win_h],[0,win_h]]
-             (xs, ys) = (float(cap_w)/win_w,  float(cap_h)/win_h)        # scale back from win to cam
              windowsizecheck = 4
            else:
              cv2.setWindowProperty("schicam", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
+             (win_w, win_h, win_pts, xs, ys, M) = update_w_h(orig_win_w, orig_win_h)
         else:
            print("unknown key code %d" % (k))
     cam.release()
