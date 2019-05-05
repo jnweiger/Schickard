@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.27493892"
-     inkscape:cx="1428.0653"
-     inkscape:cy="951.56252"
+     inkscape:zoom="0.27804636"
+     inkscape:cx="1443.293"
+     inkscape:cy="812.18271"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -25288,7 +25288,7 @@
     </g>
     <g
        id="g19030"
-       transform="translate(326.8416,-35.3271)"
+       transform="translate(327,-35)"
        style="display:inline;fill:#ffe6d5">
       <path
          style="opacity:1;vector-effect:none;fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -25298,7 +25298,7 @@
          sodipodi:nodetypes="csssssssssssssscccssssssssssssc" />
       <path
          style="opacity:1;vector-effect:none;fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 40,307 V 291 H 24 v 26 h 204 v -26 h -11 v 16 h -2"
+         d="M 40,307 V 290 H 24 v 27 h 204 v -27 h -11 v 17 h -2"
          id="path19014"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccccc" />
