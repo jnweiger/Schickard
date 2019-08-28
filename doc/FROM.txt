@@ -22,3 +22,7 @@ https://www.gwdg.de/documents/20182/27257/gn0910.pdf
 https://www.gwdg.de/documents/20182/27257/gn0908.pdf
 https://www.gwdg.de/documents/20182/27257/gn0907.pdf
 http://www.rechenschieber.org/hahn.pdf
+
+Didaktik
+========
+http://www.history.didaktik.mathematik.uni-wuerzburg.de/rechner/schott/multipli.html
