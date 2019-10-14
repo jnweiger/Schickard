@@ -10,6 +10,8 @@ Presented at
 * <A HREF="http://www.VCFe.org/" TITLE="VCFe 20.0 am 27./28.April 2019 in München"><IMG SRC="http://www.VCFe.org/GIF/VCFe-Minibanner.gif" BORDER="0" WIDTH="120" HEIGHT="38" ALT="VCFe 20.0 am 27./28.April 2019 in M&uuml;nchen" /> VCFe 20.0 in München</A>
 * <a href="http://www.faerdderla.de/events/modellbaunetzwerk-franken-5-modellbau-ausstellung-2/">5. Modellbau Ausstellung Franken (4./5. Mai 2019)</a>
 * <a href="https://maker-faire.de/maker/die-schickardsche-rechenmaschine/">Maker Faire Berlin 2019 (17.-19.5.2019)</a>
+* <a >Retrolution Hanau 2019</a>
+* <a href="https://www.vcfb.de/2019/vortraege_workshops.html#schickard">Vintage Computer Festival Berlin 2019</a>
 
 
 <img src="https://raw.githubusercontent.com/jnweiger/schickard/master/photos/build/photo_2018-10-29_15-54-43.jpg"/>
