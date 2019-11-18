@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+#
+# SelPathsToSketch -- convert selected paths to Sketch with padding.
+#
+# (C) 2019-11-09 juergen@fabmail.org - Distribute under GPLv2 or ask
+#
+# This is an import helper for Lasercut Parts designed with inkscape.
+#
+# Usage:
+#  In inkscape
+#   * use 0x00FF00 green as mark color. These lines will appear as markings on the imported objects.
+#     All other colors are imported as sketch contours.
+#   * The FreeeCAD importer sometimes misplaces groups and arc subpath elements.
+#     - Select all, ungroup all until no more groups are left. This helps against misplaced groups.
+#     - Find all type arc, convert to path, n CTRL-A, Cursor left right. This should covert arc to splines.
+#
+#  In FreeCAD
+#   * File -> Import -> flat.svg -> (*) open SVG as Geometry (importSVG)
+#   * Open the ComboView, select as many paths as belong to one body.
+#    -> There should be exactly one closed(!) outer shape. Optionally multiple (closed) inner shapes, and marking paths.
+#    -> Run this macro on the selection. This creates one Body object or (if there are marking paths) a Part object.
+#       An attempt is made to pad the sketch to 3mm. This may fail, if the geometry needs repair.
+#    -> Rename the new Body or Part to identify the object.
+#
+# TODO:
+#  - Add parapeters to the macro. mark_color, padding_mm, ...
+#  - Implement a gap detector. Two lose path ends, that are withing 0.4mm could be auto-connected, to close the shape.
+#
+# Save this file to $HOME/.FreeCAD/Macro/SelPathsToSketch.FCMacro 
+import FreeCAD
+import PartDesignGui
+import PartDesign
+import Draft
+
+mark_line_width_default = 3
+padding_mm_default = 3.0
+
+
+def SelPathsToSketch(padding_mm=10.0, mark_color=None, color_eps=0.1, mark_color_out=(0.0, 0.3, 0.0), mark_line_width=7):
+  # print out, what is selected.
+  print("Building Body from ", list(map(lambda x: x.Name, Gui.Selection.getSelection())))
+  if len(Gui.Selection.getSelection()) == 0:
+    print("Empty selection, nothing to do.")
+    return
+  
+  if mark_color is not None and len(mark_color) < 4:
+    mark_color = (mark_color[0], mark_color[1], mark_color[2], 0.0)
+  if mark_color_out is not None and len(mark_color_out) < 4:
+    mark_color_out = (mark_color_out[0], mark_color_out[1], mark_color_out[2], 0.0)
+
+  ## Prepare coordinate system so that the gui transformation handles appear near the object they translate.
+  # Find the global center and move all paths to be centered around the origin.
+  # Remember the move vector, so that the Part or Body container can have the opposite translation.
+  bb = App.BoundBox()
+  for p in Gui.Selection.getSelection():
+    bb.add(p.Shape.BoundBox)
+  for p in Gui.Selection.getSelection():
+    p.Placement.move(-1.0 * bb.Center)
+
+  # sort the paths by stroke color. mark_color paths do not go into the sketch, they remain as surface marks.
+  mark_list = []
+  cut_list = []
+  for p in Gui.Selection.getSelection():
+    v = p.ViewObject		# v = Gui.ActiveDocument.getObject(p.Name)
+    if v is not None and mark_color is not None:
+      if abs(v.LineColor[0] - mark_color[0]) < color_eps and abs(v.LineColor[1] - mark_color[1]) < color_eps and abs(v.LineColor[2] - mark_color[2]) < color_eps and abs(v.LineColor[3] - mark_color[3]) < color_eps:
+        mark_list.append(p)
+      else:
+        cut_list.append(p)
+
+  if len(cut_list) == 0:
+    print("all paths match mark_color %s, need at least one for the sketch" % (mark_color,))
+    return
+
+  # move them in a new sketch
+  s = Draft.makeSketch(cut_list, autoconstraints=True, delete=True)
+  
+  # move the sketch in a new body
+  b = App.ActiveDocument.addObject('PartDesign::Body', 'Body')
+  b.Group = [ s ]
+  
+  # s.adjustRelativeLinks(b)	??
+  
+  Gui.ActiveDocument.ActiveView.setActiveObject('pdbody', b)
+  
+  ## try pad the sketch
+  try:
+    p = b.newObject('PartDesign::Pad','Pad')
+    p.Profile = s
+    p.Length = padding_mm
+    p.Reversed = 1
+    b.recompute(True)
+    s.Visibility = False
+  except:
+    print("Sketch %s has %d open vertices, padding to %d mm not done" % (s.Name, len(s.OpenVertices), padding_mm))
+
+  if len(mark_list):
+    g = App.ActiveDocument.addObject('App::DocumentObjectGroup','Group')
+    a = App.ActiveDocument.addObject('App::Part','Part')
+    a.addObject(b)
+    a.addObject(g)
+    g.Group = mark_list
+    for m in mark_list:
+      v = m.ViewObject		# v = Gui.ActiveDocument.getObject(m.Name)
+      v.LineColor = mark_color_out
+      v.LineWidth = mark_line_width
+    a.Placement.move(bb.Center)
+
+    ## Without this hack, 
+    # * the markings fail to move with the body and
+    # * we get "Link goes out of allowed scope"
+    a.Group = a.Group + g.Group
+  else:
+    b.Placement.move(bb.Center)
+  
+  App.ActiveDocument.recompute()
+
+
+SelPathsToSketch(padding_mm=padding_mm_default, mark_color=(0.0, 1.0, 0.0), mark_line_width=mark_line_width_default)
+
+# Macro End: /home/testy/.FreeCAD/Macro/SelPathsToSketch.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++
