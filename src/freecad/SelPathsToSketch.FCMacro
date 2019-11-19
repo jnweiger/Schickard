@@ -13,6 +13,7 @@
 #   * The FreeeCAD importer sometimes misplaces groups and arc subpath elements.
 #     - Select all, ungroup all until no more groups are left. This helps against misplaced groups.
 #     - Find all type arc, convert to path, n CTRL-A, Cursor left right. This should covert arc to splines.
+#   * Group objects. This helps getting the paths of one objects close together.
 #
 #  In FreeCAD
 #   * File -> Import -> flat.svg -> (*) open SVG as Geometry (importSVG)
