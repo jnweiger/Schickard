@@ -17,7 +17,7 @@ Am wichtigsten davon sind drei Sperrholzplatten 76cm x 50cm. Aller lasergeschnit
 werden daraus gemacht.
 
 Achte beim Holzeinkauf auf die exakte Dicke. Die Platten sollten maximal 3.2mm dick sein. Manche Hersteller verkaufen bis zu 3.5mm dicke Platten als 3mm (funktioniert hier nicht!). Manche Hersteller halten exakt 3.0mm ein (das funkioniert, baucht aber mehr Holzleim). Mit 3.2mm Holz funktionieren viele Verbindungen als stramme Steckverbindungen, die oft keinen Leim benötigen.
-Birkensperrholz sollte in guter Qualität gekauft werden. Astfrei, glatt, absolut eben. Frage nach "Laserqualität".
+Birkensperrholz sollte in guter Qualität gekauft werden. Astfrei, glatt, absolut eben. Frage nach "Laserqualität". Mindestens handelsbezeichnung "BB/B".
 Beim Zuschnitt muss die Holzmaserung in Längsrichtung verlaufen. (Holzfedern quer zur Maserung funktionieren nicht!)
 
 Buchensperrholz ist auch eine gute Wahl. Es ist deutlich härter, aber auch teurer.
@@ -47,9 +47,6 @@ Ausserdem befinden sich 13 Teile für Positionierhilfen auf der Platte, die nur 
  * Finde fünf kleine Rechtecke 32mm x 14mm mit gezahnten Aussparungen, die mit "Positioning Aid Knob Assembly" beschriftet sind. Weitere fünf dieser Teile sind unbeschriftet. (Nur je vier beschriftete und unbeschriftete werden benötigt. Falls eines verloren geht oder bricht, benutze das fünfte.)
  * Finde zwei gewinkelte Teile mit Innekurve ca. 6cm x 5cm mit der Beschriftung "Napier - Positioning Aid Side Connectors". Lege sie zur Seite, sie werden später bei den Seitenwänden benutzt.
  * Finde ein rechteckiges Teil ca. 7cm x 3cm mit der Beschriftung "Positioning Aid Side Connectors Memory". Lege es zur Seite, es wird später bei den Seitenwänden benutzt.
-
-Ausserdem sind zwei Sätze Ringe auf der Platte. Ein Satz ist am unteren Rand und hat 14.4mm Aussendurchmesser. Der andere Satz ist am rechten Rand und hat 14.3mm. Benutze den einen Satz, der die bessere Presspassung bietet. Optional können Ringe aus stärkerem Material, beispielsweise Kraftplex gelasert werden.
-Lege die Ringe zur Seite, sie werden später beim Addierwerk und Multiplizierwerk benutzt.
 
 
 
