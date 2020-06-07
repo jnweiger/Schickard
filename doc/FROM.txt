@@ -15,6 +15,8 @@ Schickard
    http://computarium.lcd.lu/literature/LIPPE/geschichte_der_rechenautomaten.pdf
    http://www.rechenhilfsmittel.de/kh_curta.pdf
    https://www.tuebingen.de/1520.html#/1991 -> ISBN 3-910090-48-6, 4 Euro, Best.-Nr. 0033 Vergriffen
+   https://mathematikalpha.de/schickardsche-rechenmaschine
+   http://www.jepu.info/schickard/ Jens Puhle
 
 Leibniz et al
 =============
@@ -27,3 +29,4 @@ http://www.rechenschieber.org/hahn.pdf
 Didaktik
 ========
 http://www.history.didaktik.mathematik.uni-wuerzburg.de/rechner/schott/multipli.html
+https://www.dms.uni-landau.de/roth/lehre/skripte/did_grundschulmathematik/did_grundschulmathematik_5_schriftliche_rechenverfahren.pdf
