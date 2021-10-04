@@ -4,7 +4,8 @@ Schickard
    http://www.boelters.de/Rechenmaschinen/_Schickard/Sch2.pdf
 ++ http://history-computer.com/MechanicalCalculators/Pioneers/Schickard.html
    http://www.henked.de/begriffe/algorithmus.htm#Schickard
-   http://www.iser.uni-erlangen.de/index.php?ort_id=322&more=I0001
+   http://www.katalog.iser.fau.de/index.php?ort_id=322&more=I0001
+   - https://www.facebook.com/watch/?v=1523784071012192
    http://www.ligafaktur.de/Schriften.html
    http://www.history.didaktik.mathematik.uni-wuerzburg.de/rechner/schott/geschich.html
    http://507movements.com/index05.html
@@ -17,6 +18,11 @@ Schickard
    https://www.tuebingen.de/1520.html#/1991 -> ISBN 3-910090-48-6, 4 Euro, Best.-Nr. 0033 Vergriffen
    https://mathematikalpha.de/schickardsche-rechenmaschine
    http://www.jepu.info/schickard/ Jens Puhle
+++ http://www.begriffslogik.de/personen/schickard
+   https://www.wienerzeitung.at/nachrichten/chronik/wien-chronik/306835_Die-Rechenuhr-Wilhelm-Schickards.html
+   https://www.wienerzeitung.at/nachrichten/chronik/wien-chronik/306835_Die-Rechenuhr-Wilhelm-Schickards.html
+   https://www.mathematik.de/spudema/spudema_beitraege/beitraege/sujan/rechenuhr.htm
+
 
 Leibniz et al
 =============
@@ -30,3 +36,18 @@ Didaktik
 ========
 http://www.history.didaktik.mathematik.uni-wuerzburg.de/rechner/schott/multipli.html
 https://www.dms.uni-landau.de/roth/lehre/skripte/did_grundschulmathematik/did_grundschulmathematik_5_schriftliche_rechenverfahren.pdf
+
+
+Lörringhoff Nachbauten
+======================
+ - Tübingen, Theodor-Häring-Haus
+ - München
+ - Linz
+ - Technisches Museum Wien, 1140 Wien, Mariahilfer Straße 212
+ - Technikmuseum Berlin (Magazin, Anke Stüber)
+ - Erlangen, RRZE
+ - Computermuseum Kiel, Eichenbergskamp 8, 24149 Kiel
+ - Kepler-Museum, Keplergasse 2, 71263 Weil der Stadt
+ - Arithmeum Bonn, Lennestr. 2, 53113 Bonn
+ - Heinz Nixdorf MuseumsForum, Fürstenallee 7, 33102 Paderborn
+
