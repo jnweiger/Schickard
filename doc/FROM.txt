@@ -23,6 +23,10 @@ Schickard
    https://www.wienerzeitung.at/nachrichten/chronik/wien-chronik/306835_Die-Rechenuhr-Wilhelm-Schickards.html
    https://www.mathematik.de/spudema/spudema_beitraege/beitraege/sujan/rechenuhr.htm
    https://books.ub.uni-heidelberg.de/arthistoricum/catalog/book/26
+   https://www.xnumber.com/calc_history/html_pages/letter1.htm
+    - René Taton & Jean Paul Flad, "Le Calcul Mécanique. Que Sais-je?" Presses Universitaires de France, Paris, 1963
+    - Franz Hammer, "Litterae ad Keplerum." 1936
+    - M.G. Hansch, "Epistolae ad Johanem Keplerum scriptae" Leipzig, 1718
 
 
 Leibniz et al
@@ -41,6 +45,8 @@ https://www.dms.uni-landau.de/roth/lehre/skripte/did_grundschulmathematik/did_gr
 
 Lörringhoff Nachbauten
 ======================
+(Dr. Wolf hat ca 15 Maschinen vermutet)
+
  - Tübingen, Theodor-Häring-Haus
  - München
  - Linz
