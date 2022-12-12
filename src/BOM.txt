@@ -10,13 +10,16 @@ The 14mm rings for the adder box can be made from 3mm Kraftplex for better quali
 
 Shopping list
 =============
- - 3x plywood 50cm x 76cm, 3.2mm (e.g. https://www.ebay.de/itm/Sperrholzplatten-3mm-Birke-10-90-m-Bastelholz-Holzplatte-Modellbau-Sperrholz/251233553554)
- - plywood ca 22cm x 20cm, 4mm (for the sign)
+ - Either
+    - 3x plywood 50cm x 76cm, 3.2mm (e.g. https://www.ebay.de/itm/Sperrholzplatten-3mm-Birke-10-90-m-Bastelholz-Holzplatte-Modellbau-Sperrholz/251233553554)
+    - plywood ca 22cm x 20cm, 4mm (for the sign)
+   or
+    - 10x plywwood 50 cm x 30 cm, 3.2mm (see subfolder 50x30, this includes the sign in 3mm thickness)
  - optionally 3mm Kraftplex ca 9cm x 15cm for extra strong 10mm rings as bearings.
  - 5x beechwood cylindrical rod, 6mm diameter, 90mm (buy 1m, cut yourself)
  - 26x beechwood cylindrical rod, 4mm diameter, 13mm (buy 1m, cut yourself)
  - ca 100 toothpics, 2mm diameter.
- - wood glue (e.g. Ponal Express)
+ - wood glue (e.g. Bindan Propellerleim, Ponal Express)
  - candlestump 
  - sandpaper grain 180
  - adhesive tape (e.g. painters tape)
@@ -31,7 +34,7 @@ Tools
 
 Software
 ========
- - inkscape 0.92.3 (open the SVG file, select laser layers)
+ - inkscape (open the SVG file, select laser layers)
  - VisiCut (or whatever is needed to drive the laser)
 
 
