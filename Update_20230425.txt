@@ -1,0 +1,4 @@
+TODO:
+* [ ] Addierwerk Rastfeder braucht 1mm tiefere Aussparungen für die Achsen der Carry wheels
+* [ ] Speicherwerk: Ablesbarkeit wird besser, wenn die Scheiben näher an den Deckel rücken. Schulter 1.5 mm hoch.
+* [ ] Speicherwerk: Rollen kollidieren mit den Armen der Kreuzwelle.  Aussparungen 1 mm tiefer.
