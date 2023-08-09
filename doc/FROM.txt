@@ -27,6 +27,11 @@ Schickard
     - René Taton & Jean Paul Flad, "Le Calcul Mécanique. Que Sais-je?" Presses Universitaires de France, Paris, 1963
     - Franz Hammer, "Litterae ad Keplerum." 1936
     - M.G. Hansch, "Epistolae ad Johanem Keplerum scriptae" Leipzig, 1718
+   https://www.krzbb.de/inhalt.wilhelm-schickards-rechenuhr-der-vorlaeufer-des-computers-wurde-in-tuebingen-erfunden.6f833886-5977-4824-90b6-3f6ec982abd7.html
+	Der Tübinger Mathematikprofessor Johann Bohnenberger (1765–1831) kannte offenbar diese Briefe und brachte 
+	seinerzeit verwundert zu Papier, dass es merkwürdigerweise „gar nicht bekannt zu sein scheint, daß Schickard
+	eine Rechenmaschine erfunden hat“. Auch ein 1899 veröffentlichter Artikel in einer Zeitschrift für 
+	Vermessungswesen, der Bohnenbergers Hinweis zitiert, blieb unbeachtet.
 
 
 Leibniz et al
