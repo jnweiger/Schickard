@@ -13,6 +13,7 @@ Presented at
 * <a >Retrolution Hanau 2019</a>
 * <a href="https://www.vcfb.de/2019/vortraege_workshops.html#schickard">Vintage Computer Festival Berlin 2019</a>
 * <a href="https://www.lug-noris.de/lug-nuernberg/linux-presentation-day">Linux Presentation Day 2020.2</a>
+* <a href="https://maischule.de/von-rechenmeistern-zur-rechenmaschine-eine-reise-in-die-vergangenheit-mit-juergen-weigert-vom-fab-lab-region-nuernberg-e-v">Maischule Fürth (10. Juli 2023)</a>
 
 
 <img src="https://raw.githubusercontent.com/jnweiger/schickard/master/photos/build/20181104_153002a.jpg"/>
