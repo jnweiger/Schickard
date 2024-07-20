@@ -1,6 +1,7 @@
 Schickard
 =========
 
+   https://www.heise.de/hintergrund/Zahlen-bitte-Berechnungen-ueber-17-Raedchen-Die-erste-Rechenmaschine-der-Welt-8977930.html
    http://www.boelters.de/Rechenmaschinen/_Schickard/Sch2.pdf
 ++ http://history-computer.com/MechanicalCalculators/Pioneers/Schickard.html
    http://www.henked.de/begriffe/algorithmus.htm#Schickard
